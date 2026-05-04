@@ -2,6 +2,8 @@
 
 P.S. Technically, it is 90% work of copilot, because AI added a lot of text
 
+Here a link to WebPage: https://klunok.github.io/Using_Microsoft_Copilot_for_Writing_HTML_CSS_and_JavaScript/
+
 ## 📚 Course Project
 
 This portfolio website is a capstone project for the **Microsoft Full-Stack Development Course - Fundamentals Track**. It demonstrates practical mastery of core web development technologies including HTML5, CSS3, and Vanilla JavaScript.
