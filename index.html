@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe - Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">John Doe</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Hello, I'm John Doe</h1>
+            <p class="subtitle">Junior Web Developer | HTML | CSS | JavaScript</p>
+            <button class="cta-button" onclick="scrollToSection('contact')">Get In Touch</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                I'm a passionate junior web developer who recently completed an intensive HTML, CSS, and JavaScript course. 
+                With a strong foundation in front-end web development, I'm eager to build responsive, user-friendly websites 
+                and continuously improve my coding skills. I'm looking for opportunities to contribute to exciting projects 
+                and grow as a developer.
+            </p>
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3>📚 Education</h3>
+                    <p>Web Development Bootcamp - Basic Course</p>
+                    <p class="small">2025 - 2026</p>
+                </div>
+                <div class="info-card">
+                    <h3>💼 Experience</h3>
+                    <p>Beginner-Level Projects</p>
+                    <p class="small">Personal & Course Projects</p>
+                </div>
+                <div class="info-card">
+                    <h3>🎯 Goal</h3>
+                    <p>Secure Entry-Level Position</p>
+                    <p class="small">Front-End Development</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>HTML</h3>
+                    <ul>
+                        <li>Semantic HTML5</li>
+                        <li>Forms & Input Validation</li>
+                        <li>Accessible Markup</li>
+                        <li>Meta Tags & SEO Basics</li>
+                    </ul>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <h3>CSS</h3>
+                    <ul>
+                        <li>Flexbox & Grid Layout</li>
+                        <li>Responsive Design</li>
+                        <li>CSS Animations</li>
+                        <li>Mobile-First Approach</li>
+                    </ul>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <h3>JavaScript</h3>
+                    <ul>
+                        <li>DOM Manipulation</li>
+                        <li>Event Handling</li>
+                        <li>ES6 Basics</li>
+                        <li>Interactive Features</li>
+                    </ul>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 70%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>Git & GitHub</li>
+                        <li>VS Code</li>
+                        <li>Chrome DevTools</li>
+                        <li>Browser Testing</li>
+                    </ul>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 65%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                    <h3>Personal Portfolio</h3>
+                    <p>A responsive portfolio website showcasing my skills and projects. Built with HTML, CSS, and JavaScript with smooth animations.</p>
+                    <div class="tech-tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+                    <h3>Todo List App</h3>
+                    <p>An interactive todo list application with add, delete, and mark complete functionality. Features local storage for data persistence.</p>
+                    <div class="tech-tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+                    <h3>Weather Dashboard</h3>
+                    <p>A weather information dashboard displaying current conditions. Uses responsive design and JavaScript for dynamic content updates.</p>
+                    <div class="tech-tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Showcase Section -->
+    <section class="showcase">
+        <div class="container">
+            <h2>Interactive Skills Showcase</h2>
+            <p class="section-subtitle">Click the buttons below to see JavaScript in action</p>
+            
+            <div class="showcase-container">
+                <div class="showcase-demo">
+                    <h3>Theme Switcher</h3>
+                    <p>Try switching between light and dark mode:</p>
+                    <button class="demo-button" onclick="toggleTheme()">🌙 Toggle Dark Mode</button>
+                </div>
+
+                <div class="showcase-demo">
+                    <h3>Dynamic Content</h3>
+                    <p id="dynamic-text">Click to generate a random development tip</p>
+                    <button class="demo-button" onclick="showTip()">Show Random Tip</button>
+                </div>
+
+                <div class="showcase-demo">
+                    <h3>Counter</h3>
+                    <div class="counter-display" id="counter-display">0</div>
+                    <div class="counter-buttons">
+                        <button class="demo-button" onclick="decrementCounter()">−</button>
+                        <button class="demo-button" onclick="incrementCounter()">+</button>
+                        <button class="demo-button" onclick="resetCounter()">Reset</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Let's Connect</h2>
+            <p class="section-subtitle">I'd love to hear from you. Feel free to reach out!</p>
+            
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+
+                <button type="submit" class="cta-button">Send Message</button>
+                <p id="form-message" class="form-message"></p>
+            </form>
+
+            <div class="social-links">
+                <a href="https://github.com" target="_blank" class="social-link">GitHub</a>
+                <a href="https://linkedin.com" target="_blank" class="social-link">LinkedIn</a>
+                <a href="mailto:john@example.com" class="social-link">Email</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 John Doe. All rights reserved. | Built with HTML, CSS & JavaScript</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
