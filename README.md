@@ -1,4 +1,4 @@
-# John Doe - Junior Web Developer Portfolio
+# CV Sample of fictional John Doe - Junior Web Developer Portfolio
 
 P.S. Technically, it is 90% work of copilot, because AI added a lot of text
 
